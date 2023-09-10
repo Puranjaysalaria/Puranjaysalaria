@@ -1,4 +1,4 @@
-# Your Name
+# Puranjay Salaria
 
 👨‍💻 Software leaner | 🌐 Web Enthusiast 
 
