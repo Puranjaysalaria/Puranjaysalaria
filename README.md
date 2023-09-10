@@ -1,6 +1,6 @@
 # Your Name
 
-👨‍💻 Software Developer | 🌐 Web Enthusiast | 🚀 Open Source Advocate
+👨‍💻 Software leaner | 🌐 Web Enthusiast 
 
 Welcome to my GitHub profile! I'm passionate about technology and enjoy building cool things with code. Here's a bit about me:
 
