@@ -18,13 +18,18 @@ Here are some of the technologies and tools I work with:
 - 🌐 Web Development: [currently learning frontend]
 - 🗃️ Databases: [SQL]
 - 🚀Editing :[Interested and cleared basics of video editing and adobe photoshop and interested in building projects and learn further.]
-  
+-🌟Canva :[design with canva]
+-🚀Illustrator for logo printing
+
 Fields to search-
 -🚀Game development
 -🌟 blender
 -🌟 web development
 -🚀software development
 
+Certificates
+-🌟![Puranjay_Salaria20230807-69-1czco6x](https://github.com/Puranjaysalaria/Puranjaysalaria/assets/141708021/672c1c51-8d13-45a2-9535-e4aeb8d18d56)
+-🌟![Puranjay_Salaria20230908-70-sc65oa](https://github.com/Puranjaysalaria/Puranjaysalaria/assets/141708021/b8c5fd28-e9ca-40fb-8276-1534d850a91d)
 
 ## Get in Touch
 
