@@ -26,6 +26,7 @@ Fields to search-
 -🌟 blender
 -🌟 web development
 -🚀software development
+-🌟 Linux
 
 Certificates
 -🌟![Puranjay_Salaria20230807-69-1czco6x](https://github.com/Puranjaysalaria/Puranjaysalaria/assets/141708021/672c1c51-8d13-45a2-9535-e4aeb8d18d56)
