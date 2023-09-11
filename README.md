@@ -31,6 +31,9 @@ Fields to search-
 Certificates
 -🌟![Puranjay_Salaria20230807-69-1czco6x](https://github.com/Puranjaysalaria/Puranjaysalaria/assets/141708021/672c1c51-8d13-45a2-9535-e4aeb8d18d56)
 -🌟![Puranjay_Salaria20230908-70-sc65oa](https://github.com/Puranjaysalaria/Puranjaysalaria/assets/141708021/b8c5fd28-e9ca-40fb-8276-1534d850a91d)
+-🌟![image](https://github.com/Puranjaysalaria/Puranjaysalaria/assets/141708021/7561003e-5fae-414d-b341-33b34eaddca7)
+-🌟!![image](https://github.com/Puranjaysalaria/Puranjaysalaria/assets/141708021/523ada15-9491-44a7-a440-413b1860d918)
+
 
 ## Get in Touch
 
