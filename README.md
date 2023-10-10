@@ -14,7 +14,7 @@ Welcome to my GitHub profile! I'm passionate about technology and enjoy building
 
 Here are some of the technologies and tools I work with:
 
-- 💻 Programming Languages: [python,c]
+- 💻 Programming Languages: [python,]
 - 🌐 Web Development: [currently learning frontend]
 - 🗃️ Databases: [SQL]
 - 🚀Editing :[Interested and cleared basics of video editing and adobe photoshop and interested in building projects and learn further.]
