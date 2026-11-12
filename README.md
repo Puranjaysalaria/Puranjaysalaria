@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Hero Terminal Banner with Automatic Dark/Light Theme Switching & Glowing Neon Aesthetic -->
+<!-- Hero Terminal Banner with Automatic Dark/Light Theme Switching & Glowing Neon Cyber Aesthetic -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
@@ -50,9 +50,9 @@ Interests: Scalable Architectures, Modern UI/UX Engineering & Gaming Freak 🎮
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Puranjaysalaria/Puranjaysalaria/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Puranjaysalaria/Puranjaysalaria/output/github-contribution-grid-snake.svg">
-    <img alt="Puranjay Salaria - GitHub Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/Puranjaysalaria/Puranjaysalaria/output/github-contribution-grid-snake-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./snake-light.svg">
+    <img alt="Puranjay Salaria - GitHub Contribution Grid Snake Animation" src="./snake-dark.svg" width="100%">
   </picture>
 </div>
 
@@ -118,5 +118,5 @@ Interests: Scalable Architectures, Modern UI/UX Engineering & Gaming Freak 🎮
 ---
 
 <div align="center">
-  <sub>Engineered by <a href="https://github.com/Puranjaysalaria">Puranjay Salaria</a> • Built with Neon Terminal Elegance</sub>
+  <sub>Engineered by <a href="https://github.com/Puranjaysalaria">Puranjay Salaria</a> • Built with Neon Cyber Terminal Precision</sub>
 </div>

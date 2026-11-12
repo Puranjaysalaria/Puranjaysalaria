@@ -1,15 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1060px" height="540px" viewBox="0 0 1060 540" font-size="15px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1140px" height="560px" viewBox="0 0 1140 560" font-size="15px">
 <defs>
+  <!-- Animated Glowing Neon Border Gradient -->
   <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="100%">
     <stop offset="0%" stop-color="#0284c7"/>
     <stop offset="50%" stop-color="#6366f1"/>
     <stop offset="100%" stop-color="#ec4899"/>
+    <animate attributeName="x1" values="0%;100%;0%" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="y1" values="0%;100%;0%" dur="12s" repeatCount="indefinite"/>
   </linearGradient>
+
+  <!-- Holographic Portrait Gradient -->
+  <linearGradient id="asciiHolo" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#0284c7"/>
+    <stop offset="50%" stop-color="#4f46e5"/>
+    <stop offset="100%" stop-color="#7c3aed"/>
+  </linearGradient>
+
+  <!-- Scanline Gradient -->
+  <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#0284c7" stop-opacity="0.45"/>
+    <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Neon Drop Shadow Filter -->
   <filter id="neonGlow" x="-10%" y="-10%" width="120%" height="120%">
-    <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#6366f1" flood-opacity="0.5"/>
+    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#6366f1" flood-opacity="0.5"/>
   </filter>
 </defs>
+
 <style>
 @font-face {
   src: local('Consolas'), local('Consolas Bold');
@@ -23,80 +43,94 @@
 .addColor {fill: #1a7f37;}
 .delColor {fill: #cf222e;}
 .cc {fill: #8c959f;}
-.neonTag {fill: #0284c7; font-weight: bold;}
-.accentHead {fill: #ec4899;}
+.neonPrompt {fill: #0284c7; font-weight: bold;}
+.accentHead {fill: #ec4899; font-weight: bold;}
+.quoteText {fill: #a78bfa; font-style: italic;}
+.cursor {fill: #0284c7;}
 text, tspan {white-space: pre;}
 </style>
 
-<!-- Outer glowing aesthetic neon border -->
-<rect x="2" y="2" width="1056" height="536" rx="16" fill="none" stroke="url(#neonBorder)" stroke-width="2" filter="url(#neonGlow)"/>
+<!-- Outer Glowing Neon Border -->
+<rect x="2" y="2" width="1136" height="556" rx="18" fill="none" stroke="url(#neonBorder)" stroke-width="2.2" filter="url(#neonGlow)"/>
 
-<!-- Inner card body -->
-<rect x="3" y="3" width="1054" height="534" rx="15" fill="#ffffff"/>
+<!-- Inner Solid Card Body -->
+<rect x="4" y="4" width="1132" height="552" rx="16" fill="#ffffff"/>
 
 <!-- Real Terminal Chrome Titlebar -->
-<circle cx="28" cy="22" r="6" fill="#ff5f56"/>
-<circle cx="48" cy="22" r="6" fill="#ffbd2e"/>
-<circle cx="68" cy="22" r="6" fill="#27c93f"/>
-<text x="95" y="26" fill="#57606a" font-size="12px">puranjay@terminal: ~ [ONLINE]</text>
-<circle cx="280" cy="22" r="4" fill="#00ff9d"/>
-<text x="290" y="26" fill="#00ff9d" font-size="11px">READY</text>
-<text x="940" y="26" fill="#57606a" font-size="12px">[bash / utf-8]</text>
+<circle cx="28" cy="24" r="6" fill="#ff5f56"/>
+<circle cx="48" cy="24" r="6" fill="#ffbd2e"/>
+<circle cx="68" cy="24" r="6" fill="#27c93f"/>
+<text x="96" y="28" fill="#57606a" font-size="12px">puranjay@salaria:~ (zsh)</text>
 
-<line x1="16" y1="36" x2="1044" y2="36" stroke="#d0d7de" stroke-width="1"/>
+<!-- Top Right Live Status Indicators -->
+<circle cx="985" cy="24" r="4.5" fill="#00ff9d">
+  <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="996" y="28" fill="#00ff9d" font-size="11px" font-weight="bold">ONLINE</text>
+<text x="1060" y="28" fill="#57606a" font-size="12px">[utf-8]</text>
 
-<!-- Left ASCII Portrait Matrix -->
-<text x="25" y="65" fill="#24292f" class="ascii">
-<tspan x="25" y="65">            .:jppjj:                  </tspan>
-<tspan x="25" y="84">          ##%%%%%%%%mkkk:             </tspan>
-<tspan x="25" y="103">      m#%%%%##%%%%#%%%%%%#MMk::       </tspan>
-<tspan x="25" y="122">      %####%%%%%%%%%%%%%%%%##MM:      </tspan>
-<tspan x="25" y="141">      ###%%#%%%#%%%%%@%@%%@%#%Mm      </tspan>
-<tspan x="25" y="160">  :m#############%#%%%@@@@@%%%%m      </tspan>
-<tspan x="25" y="179">  M######mmmpppppmmmm###%%@@%@%|      </tspan>
-<tspan x="25" y="198"> :####mpjj.....jjjjjjpppm##%@@%m:     </tspan>
-<tspan x="25" y="217"> p%##mj.........jjjjjjpppmmm#%@@%.    </tspan>
-<tspan x="25" y="236"> p##mjjj.........j.jjjjpppmmm%@@@m..  </tspan>
-<tspan x="25" y="255"> j##mpj..jjjjjjjjjjjpppppppmm%@@@#jjj.</tspan>
-<tspan x="25" y="274">  #%mjjppmm##mmmpppm##%%%%###%@@%pjjjj</tspan>
-<tspan x="25" y="293">  p@pjmmppmm##mmjjp####mmm#%##@@mjppjj</tspan>
-<tspan x="25" y="312">  .%jjpp###%#mmpj.p####%%%%###@@pppppp</tspan>
-<tspan x="25" y="331">   mj...jjjjjjjj..jmmppmm##mmm@%pppppp</tspan>
-<tspan x="25" y="350">  jp...   .....j..jmmpjjjjjpmm%%pppppp</tspan>
-<tspan x="25" y="369">  .pj.......jjp#mp#%mmjjjjjpmm%%mppppp</tspan>
-<tspan x="25" y="388">  .mjjj....j..ppppm##mjjjjpmmm%#pmpppp</tspan>
-<tspan x="25" y="407">   mppjjjjjjpjjppppmmmmmpppm##@#mmmppp</tspan>
-<tspan x="25" y="426">   mmmppjjpmmmmpppmm#####mm#%@@mmmpppp</tspan>
-<tspan x="25" y="445">   m#mpmpjppppjjpppmm#mm#m#%@@%mmmmppp</tspan>
-<tspan x="25" y="464">   .%#mmppjj.jjppmmppmmmm#%@@@#mmmmmpp</tspan>
-<tspan x="25" y="483">    m%#mmpppjj.jjjpjppmm#%@@@@mmmmmmpp</tspan>
-<tspan x="25" y="502">  p@@@@%%%%#mppppmmm##%@@@@@@@@@#mmmpp</tspan>
-<tspan x="25" y="521"> .@@@@@@@@@@@%%%%%%@@@@@@@@@@@@@%mmmpp</tspan>
+<!-- Divider Line -->
+<line x1="16" y1="42" x2="1124" y2="42" stroke="#d0d7de" stroke-width="1"/>
+
+<!-- Subtle Holographic Scanline Over Left Column -->
+<line x1="24" y1="50" x2="385" y2="50" stroke="url(#scanGrad)" stroke-width="2">
+  <animate attributeName="y1" values="50;530;50" dur="9s" repeatCount="indefinite"/>
+  <animate attributeName="y2" values="50;530;50" dur="9s" repeatCount="indefinite"/>
+</line>
+
+<!-- Left Column: Holographic ASCII Portrait Matrix -->
+<text x="26" y="72" fill="url(#asciiHolo)" class="ascii">
+<tspan x="26" y="72">            .:jppjj:                  </tspan>
+<tspan x="26" y="91">          ##%%%%%%%%mkkk:             </tspan>
+<tspan x="26" y="110">      m#%%%%##%%%%#%%%%%%#MMk::       </tspan>
+<tspan x="26" y="129">      %####%%%%%%%%%%%%%%%%##MM:      </tspan>
+<tspan x="26" y="148">      ###%%#%%%#%%%%%@%@%%@%#%Mm      </tspan>
+<tspan x="26" y="167">  :m#############%#%%%@@@@@%%%%m      </tspan>
+<tspan x="26" y="186">  M######mmmpppppmmmm###%%@@%@%|      </tspan>
+<tspan x="26" y="205"> :####mpjj.....jjjjjjpppm##%@@%m:     </tspan>
+<tspan x="26" y="224"> p%##mj.........jjjjjjpppmmm#%@@%.    </tspan>
+<tspan x="26" y="243"> p##mjjj.........j.jjjjpppmmm%@@@m..  </tspan>
+<tspan x="26" y="262"> j##mpj..jjjjjjjjjjjpppppppmm%@@@#jjj.</tspan>
+<tspan x="26" y="281">  #%mjjppmm##mmmpppm##%%%%###%@@%pjjjj</tspan>
+<tspan x="26" y="300">  p@pjmmppmm##mmjjp####mmm#%##@@mjppjj</tspan>
+<tspan x="26" y="319">  .%jjpp###%#mmpj.p####%%%%###@@pppppp</tspan>
+<tspan x="26" y="338">   mj...jjjjjjjj..jmmppmm##mmm@%pppppp</tspan>
+<tspan x="26" y="357">  jp...   .....j..jmmpjjjjjpmm%%pppppp</tspan>
+<tspan x="26" y="376">  .pj.......jjp#mp#%mmjjjjjpmm%%mppppp</tspan>
+<tspan x="26" y="395">  .mjjj....j..ppppm##mjjjjpmmm%#pmpppp</tspan>
+<tspan x="26" y="414">   mppjjjjjjpjjppppmmmmmpppm##@#mmmppp</tspan>
+<tspan x="26" y="433">   mmmppjjpmmmmpppmm#####mm#%@@mmmpppp</tspan>
+<tspan x="26" y="452">   m#mpmpjppppjjpppmm#mm#m#%@@%mmmmppp</tspan>
+<tspan x="26" y="471">   .%#mmppjj.jjppmmppmmmm#%@@@#mmmmmpp</tspan>
+<tspan x="26" y="490">    m%#mmpppjj.jjjpjppmm#%@@@@mmmmmmpp</tspan>
+<tspan x="26" y="509">  p@@@@%%%%#mppppmmm##%@@@@@@@@@#mmmpp</tspan>
+<tspan x="26" y="528"> .@@@@@@@@@@@%%%%%%@@@@@@@@@@@@@%mmmpp</tspan>
 </text>
 
-<!-- Right Terminal Info Specsheet -->
-<text x="410" y="65" fill="#24292f">
-<tspan x="410" y="65" class="neonTag">puranjay@salaria</tspan> <tspan class="cc">-—————————————————————————————————————————————-—-</tspan>
-<tspan x="410" y="84" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Windows 11, Linux (WSL), Android</tspan>
-<tspan x="410" y="103" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">Thapar Inst. of Eng. &amp; Tech. (TIET)</tspan>
-<tspan x="410" y="122" class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Patiala / Ludhiana, Punjab, India</tspan>
-<tspan x="410" y="141" class="cc">. </tspan><tspan class="key">Discipline</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Full-Stack Web &amp; AI Engineering</tspan>
-<tspan x="410" y="160" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">VS Code, PyCharm, Android Studio</tspan>
-<tspan x="410" y="179" class="cc">. </tspan>
-<tspan x="410" y="198" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">TypeScript, Python, JavaScript, C++, Dart</tspan>
-<tspan x="410" y="217" class="cc">. </tspan><tspan class="key">Frameworks</tspan>.<tspan class="key">Web</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">React, Next.js, Node.js, Express, Tailwind</tspan>
-<tspan x="410" y="236" class="cc">. </tspan><tspan class="key">Databases</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">MongoDB, PostgreSQL, Firebase, MySQL</tspan>
-<tspan x="410" y="255" class="cc">. </tspan>
-<tspan x="410" y="274" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Full-Stack SaaS, Deep Learning Models</tspan>
-<tspan x="410" y="293" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Interests</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Gaming Freak, UI/UX Design, Open Source</tspan>
-<tspan x="410" y="325" class="accentHead">- Contact</tspan> <tspan class="cc">-——————————————————————————————————————————————-—-</tspan>
-<tspan x="410" y="344" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">puranjay1200@gmail.com</tspan>
-<tspan x="410" y="363" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">in/puranjay-salaria-b6574027a</tspan>
-<tspan x="410" y="382" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">github.com/Puranjaysalaria</tspan>
-<tspan x="410" y="415" class="neonTag">- GitHub Stats</tspan> <tspan class="cc">-—————————————————————————————————————————-—-</tspan>
-<tspan x="410" y="434" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">27</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">30+</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">12+</tspan>
-<tspan x="410" y="453" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">144+</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">1+</tspan>
-<tspan x="410" y="472" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc">. </tspan><tspan class="value">120,400+</tspan> ( <tspan class="addColor">105,200</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">15,200</tspan><tspan class="delColor">--</tspan> )
-<tspan x="410" y="505" class="cc">. </tspan><tspan class="key">Status</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Building high-performance web systems</tspan>
+<!-- Right Column: System Specsheet & Terminal Engine -->
+<text x="410" y="72" fill="#24292f">
+<tspan x="410" y="72" class="neonPrompt">puranjay@salaria</tspan> <tspan class="cc">-——————————————————————————————————————————————-—-</tspan>
+<tspan x="410" y="91" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Windows 11, Linux (WSL), Android</tspan>
+<tspan x="410" y="110" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">Thapar Inst. of Eng. &amp; Tech. (TIET)</tspan>
+<tspan x="410" y="129" class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Patiala / Ludhiana, Punjab, India</tspan>
+<tspan x="410" y="148" class="cc">. </tspan><tspan class="key">Discipline</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Full-Stack Web &amp; AI Engineering</tspan>
+<tspan x="410" y="167" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">VS Code, PyCharm, Android Studio</tspan>
+<tspan x="410" y="186" class="cc">. </tspan>
+<tspan x="410" y="205" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">TypeScript, Python, JavaScript, C++, Dart</tspan>
+<tspan x="410" y="224" class="cc">. </tspan><tspan class="key">Frameworks</tspan>.<tspan class="key">Web</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">React, Next.js, Node.js, Express, Tailwind</tspan>
+<tspan x="410" y="243" class="cc">. </tspan><tspan class="key">Databases</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">MongoDB, PostgreSQL, Firebase, MySQL</tspan>
+<tspan x="410" y="262" class="cc">. </tspan>
+<tspan x="410" y="281" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Full-Stack SaaS, Deep Learning Models</tspan>
+<tspan x="410" y="300" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Interests</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Gaming Freak, UI/UX Design, Open Source</tspan>
+<tspan x="410" y="333" class="accentHead">- Contact</tspan> <tspan class="cc">-———————————————————————————————————————————————-—-</tspan>
+<tspan x="410" y="352" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">puranjay1200@gmail.com</tspan>
+<tspan x="410" y="371" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">in/puranjay-salaria-b6574027a</tspan>
+<tspan x="410" y="390" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">github.com/Puranjaysalaria</tspan>
+<tspan x="410" y="423" class="neonPrompt">- GitHub Stats</tspan> <tspan class="cc">-—————————————————————————————————————————-—-</tspan>
+<tspan x="410" y="442" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">27</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">30+</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">12+</tspan>
+<tspan x="410" y="461" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">144+</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">1+</tspan>
+<tspan x="410" y="480" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc">. </tspan><tspan class="value">120,400+</tspan> ( <tspan class="addColor">105,200</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">15,200</tspan><tspan class="delColor">--</tspan> )
+<tspan x="410" y="504" class="cc">. </tspan><tspan class="key">Quote</tspan>:<tspan class="cc"> .. </tspan><tspan class="quoteText">"With great code comes great responsibility."</tspan>
+<tspan x="410" y="528" class="neonPrompt">~/profile</tspan> <tspan class="cc">$</tspan> <tspan class="value">./status --mode</tspan> <tspan class="neonPrompt">[SHIPPED]</tspan><tspan class="cursor"> _</tspan><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
 </text>
 </svg>
