@@ -1,26 +1,109 @@
-<h1 align="center">Hi 👋, I'm Puranjay</h1>
-<h3 align="center">A passionate developer from India</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=puranjaysalaria&label=Profile%20views&color=0e75b6&style=flat" alt="puranjaysalaria" /> </p>
+<!-- Hero Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,7,12,18,24&height=220&section=header&text=Puranjay%20Salaria&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=puranjaysalaria" alt="puranjaysalaria" /></a> </p>
+<!-- Animated Typing Subtitle -->
+<a href="https://github.com/Puranjaysalaria">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Full+Stack+Developer+%F0%9F%92%BB;AI+%26+Machine+Learning+Enthusiast+%F0%9F%A7%A0;Building+modern+web+%26+mobile+products+%F0%9F%9A%80;Student+%40+Thapar+University+%F0%9F%8E%93" alt="Typing SVG" />
+</a>
 
-- 🌱 I’m currently learning **Machine Learning and Deep Learning**
+<br />
 
-- 📫 How to reach me **puranjay1200@gmail.com**
-
-- ⚡ Fun fact **I think I am funny**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/puranjay-salaria-b6574027a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="puranjay salaria" height="30" width="40" /></a>
+<!-- Social Badges -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/puranjay-salaria-b6574027a/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:puranjay1200@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/Puranjaysalaria">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+</div>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=puranjaysalaria&show_icons=true&locale=en&layout=compact" alt="puranjaysalaria" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=puranjaysalaria&show_icons=true&locale=en" alt="puranjaysalaria" /></p>
+### 👨‍💻 About Me
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=puranjaysalaria&" alt="puranjaysalaria" /></p>
+```yaml
+Name: Puranjay Salaria
+Institution: Thapar Institute of Engineering and Technology 🎓
+Location: Patiala, Punjab, India 📍
+Focus: Full-Stack Web Development, Mobile Apps & Applied Machine Learning 🚀
+Interests: Building scalable web platforms, modern UI/UX design, and open-source
+```
+
+- 🌱 **Currently exploring:** Advanced Neural Networks & Scalable Cloud Deployments
+- 🛠️ **Active Projects:** Financial dashboards, real-time trackers, and community apps
+- 💬 **Ask me about:** React, TypeScript, Flutter, Python, Node.js, and SQL/NoSQL
+- ⚡ **Fun Fact:** *I debug with console.log and pure optimism.*
+
+---
+
+### 🛠️ Tech Stack & Tooling
+
+<div align="center">
+
+#### **Frontend & Mobile**
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,html,css,flutter,dart&perline=10" alt="Frontend & Mobile" />
+</a>
+
+<br />
+
+#### **Backend, APIs & Databases**
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,firebase,postgres,python,cpp,c&perline=10" alt="Backend & Databases" />
+</a>
+
+<br />
+
+#### **Tools & Workflow**
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,postman,figma,jenkins&perline=10" alt="Tools & Workflow" />
+</a>
+
+</div>
+
+---
+
+### 🚀 Featured Repositories
+
+| Project | Description | Stack | Link |
+| :--- | :--- | :--- | :---: |
+| 📊 **Zorvyn Finance Dashboard** | Dynamic financial analytics dashboard with interactive charts and KPI tracking | `React` `Tailwind` `Chart.js` | [**Repo** →](https://github.com/Puranjaysalaria/Zorvyn_FinanceDashboard) |
+| 💳 **Expense Tracker** | Full-stack budget management and real-time expense classification | `Node.js` `Express` `MongoDB` | [**Repo** →](https://github.com/Puranjaysalaria/expense-track) |
+| 🤝 **Joineazy** | Streamlined platform connecting communities and collaborative events | `Full Stack` `Web` | [**Repo** →](https://github.com/Puranjaysalaria/Joineazy) |
+| 🎮 **Game Findy** | Interactive gaming catalog and discovery engine with fluid animations | `JavaScript` `APIs` `CSS3` | [**Repo** →](https://github.com/Puranjaysalaria/Game_Findy) |
+
+---
+
+### 📊 GitHub Activity & Insights
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://github-stats-extended.vercel.app/api?username=Puranjaysalaria&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" width="100%" />
+      </td>
+      <td width="50%" align="center">
+        <img src="https://streak-stats.demolab.com/?user=Puranjaysalaria&theme=tokyonight&hide_border=true&background=0d1117" alt="Streak Stats" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Puranjaysalaria&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" width="60%" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,7,12,18,24&height=100&section=footer" width="100%" />
+</div>
