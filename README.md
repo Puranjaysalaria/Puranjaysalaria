@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Hero Terminal Banner with Automatic Dark/Light Theme Switching -->
+<!-- Hero Terminal Banner with Automatic Dark/Light Theme Switching & Glowing Neon Aesthetic -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
@@ -43,6 +43,18 @@ Interests: Scalable Architectures, Modern UI/UX Engineering & Gaming Freak 🎮
 - 🎓 **Education:** Pursuing engineering at Thapar Institute of Engineering and Technology.
 - 💬 **Ask me about:** React, Next.js, TypeScript, Flutter, Node.js, Express, Python, and SQL/NoSQL databases.
 - ⚡ **Fun Fact:** *I debug with console.log and pure optimism.*
+
+---
+
+### 🐍 Contribution Activity Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./snake-light.svg">
+    <img alt="Puranjay Salaria - GitHub Contribution Grid Snake" src="./snake-dark.svg" width="100%">
+  </picture>
+</div>
 
 ---
 
@@ -106,5 +118,5 @@ Interests: Scalable Architectures, Modern UI/UX Engineering & Gaming Freak 🎮
 ---
 
 <div align="center">
-  <sub>Engineered by <a href="https://github.com/Puranjaysalaria">Puranjay Salaria</a> • Built with Terminal Elegance</sub>
+  <sub>Engineered by <a href="https://github.com/Puranjaysalaria">Puranjay Salaria</a> • Built with Neon Terminal Elegance</sub>
 </div>
